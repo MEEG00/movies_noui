@@ -1,0 +1,29 @@
+:root{
+    --main : #003366;
+    --secc : #EDEDED;
+    --acc : #C0C0C0;
+    --ter :  #008080;
+    --quar :  #F9F9F9;
+    --quin : #87CEEB;
+    --sett :#808080;
+}
+body{
+    background-color: var(--main);
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: var(--quar);
+}
+.navbar{
+    background-color: var(--quin);
+    color: var(--ter);
+}
+.card{
+    background-color: black;
+    color : var(--quar)
+}
+.card:hover{
+    color:var(--quar);
+    background-color:var(--quin);
+    transition: 0.2s;
+    transform: scale(1.1);
+}
